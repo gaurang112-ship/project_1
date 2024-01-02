@@ -1166,10 +1166,9 @@ text-transform: lowercase;
 
 @media only screen and (min-width: 300px) and (max-width: 768px){
   #section6 {
-    flex-direction: column; 
-    text-align: left;
-    background-color: rgba(248, 233, 216, 0.
-  226);
+  flex-direction: column; 
+  text-align: left;
+  background-color: rgba(248, 233, 216, 0.226);
   }
 
   .s-text-w-f {
@@ -1177,7 +1176,8 @@ text-transform: lowercase;
   }
 
   .s-text-w-f p{
-    margin-left: 0.5em;
+    margin-left: 0.5vw;
+    width: fit-content;
   }
 
   .one, .two{
